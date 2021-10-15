@@ -1,0 +1,29 @@
+.title {
+  text-transform: capitalize;
+  margin: auto;
+  text-align: center;
+}
+.pokimg {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+.btn {
+  display: flex;
+  width: 200px;
+  margin: auto;
+  justify-content: center;
+  color: red;
+  background: white;
+}
+.btn:active {
+  color: goldenrod;
+  background: black;
+}
+
+@keyframes shiny {
+  to {
+    transform: rotateX(2px);
+  }
+}
