@@ -1,0 +1,13 @@
+.title {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  flex-wrap: wrap;
+}
+.poker:hover {
+  background: url(https://tecnoblog.net/wp-content/uploads/2020/11/como-jogar-pokemon-go-no-pc-700x394.jpg);
+  background-attachment: local;
+  background-position: auto;
+  position: relative;
+}
