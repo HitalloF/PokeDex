@@ -9,7 +9,7 @@ const Pokemons = () => {
   const [hidden, setHidden] = React.useState(true);
   const [hidden1, setHidden1] = React.useState(true);
   React.useEffect(() => {
-    fetch(`https://pokeapi.co/api/v2/pokemon`)
+    fetch(`https://pokeapi.co/api/v2/pokemon/`)
       .then((response) => response.json())
       .then((json) => setDados(json));
   }, []);

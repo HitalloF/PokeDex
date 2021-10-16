@@ -8,6 +8,7 @@
   align-content: center;
   align-items: center;
   justify-content: center;
+  justify-content: space-around;
 }
 .btn {
   display: flex;
@@ -17,13 +18,45 @@
   color: red;
   background: white;
 }
+
 .btn:active {
   color: goldenrod;
   background: black;
 }
+.txt {
+  justify-content: center;
+  flex-wrap: wrap;
+  display: inline-flex;
+  width: 200px;
+}
+.boxx {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
 
-@keyframes shiny {
-  to {
-    transform: rotateX(2px);
-  }
+.txt h2 {
+  align-items: center;
+  margin: 5px;
+  text-align: center;
+  padding: 5px;
+  background: black;
+  color: white;
+  width: 200px;
+}
+
+.txt li {
+  text-align: center;
+  text-transform: capitalize;
+  list-style: none;
+  background: black;
+  color: white;
+  width: 150px;
+  margin: 3px;
+}
+.aa {
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: auto;
 }
